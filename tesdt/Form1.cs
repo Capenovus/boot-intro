@@ -10,7 +10,8 @@ namespace tesdt
         {
             InitializeComponent();
             WindowState = FormWindowState.Maximized;
-            Video v = new Video(@"C:\Users\boring\source\misc\ps1\video.mp4")
+            // your vid path here
+            Video v = new Video(@"C:\Users\...\video.mp4")
             {
                 Owner = this,
                 Size = Screen.PrimaryScreen.Bounds.Size
