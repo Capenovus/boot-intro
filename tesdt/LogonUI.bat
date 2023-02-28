@@ -1,4 +1,4 @@
-Rem AutoExecute on Boot
+Rem AutoExecute on Boot, Compile as LogonUI.exe and replace in Sys32
 @echo off
 find "0" C:\ps1_state.txt && (
 goto :yay
